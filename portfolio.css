@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: sans-serif;
+    background-color: #363642;
+    overflow-x: hidden;
+}
+
+                    /* ALL NAV IEMS DESIGN */
+
+.nav-bars nav{
+    display: flex;
+    justify-content: space-between;
+    width: 103%;
+    padding: 23px;
+}
+ #Logo{
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 78px;
+
+}
+.nav-bars ul li{
+    display: inline;
+    margin: 32px;
+}
+.nav-bars ul li a{
+    text-decoration: none;
+    position: relative;
+    top: 30%;
+    right: 22%;
+    color: white;
+}
+.nav-bars ul li a:hover{
+    color: #dfae3c;
+}
+
+
+.nav-items{
+    position: relative;
+    right: 10%;
+    letter-spacing: 15px;
+}
+.nav-items a i{
+    position: relative;
+    top: 30%;
+    color: white;
+}
+.nav-items a i:hover{
+    color: #dfae3c;
+}
+
+section{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.text-im h1{
+    font-size: 378%;
+    color: #9F9FAA;
+    font-weight: lighter;
+}
+.text-im h4{
+    color: white;
+    font-size: 325%;
+    margin-bottom: 3%;
+    word-spacing: 1rem;
+}
+.text-im h4 span{
+    border-bottom: 3px solid #dfae3c;
+    padding-bottom: 2%;
+}
+.text{
+    color: white;
+    width: 22%;
+    font-size: 84%;
+    padding-top: 1%;
+    line-height: 126%;
+
+}
+
+                               /* Pic background color */
+.bor{
+    width: 57%;
+    /* border: 1px solid black; */
+    height: 58vh;
+    background-color: #2d2d39;
+    position: relative;
+    top: -25rem;
+    left: 18%;
+    border-radius: 75%;
+    z-index: -1;
+}
+.img{
+    display: flex;
+    justify-content: center; 
+}
+.img img{
+    position: relative;
+    right: 4%;
+    bottom: 1rem;
+    width: 34%;
+}
+
+.left-text{
+    position: absolute;
+    left: 61%;
+    top: 28%;
+    color: white;
+}
+
+.left-text p{
+        margin-bottom: 2%;
+}
+#text{
+    width: 41%;
+    font-size: 86%;
+    line-height: 145%;
+}
+
+.link a,i{
+    color: #dfae3c;
+    text-decoration: none;
+    padding-top: 2%;
+}
+.link :hover{
+    color: #9f9fab;
+}
+                       /* bottom social links */
+
+    
+                       
+.social i{
+    background-color: #ffffff;
+    /* width: 4%; */
+    /* height: 3vh; */
+    padding: 2%;
+    margin-top: 4%;
+    border-radius: 68%;
+}                       
+
+
