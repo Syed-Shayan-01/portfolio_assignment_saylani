@@ -41,8 +41,9 @@ body{
 
 .nav-items{
     position: relative;
-    right: 10%;
-    letter-spacing: 15px;
+    right: 5%;
+    letter-spacing: 33px;
+    font-size: 127%;
 }
 .nav-items a i{
     position: relative;
@@ -55,9 +56,17 @@ body{
 
 footer{
     position: absolute;
-    top: 30%;
-    left: 23%;
+    top: 28%;
+    left: 18%;
 }
+
+.text-im{
+    position: relative;
+    right: 10%;
+    bottom: 35px;
+}
+
+
 .text-im h1{
     font-size: 378%;
     color: #9F9FAA;
@@ -84,12 +93,12 @@ footer{
 
                                /* Pic background color */
 .bor{
-    width: 57%;
+    width: 52%;
     /* border: 1px solid black; */
-    height: 460px;
+    height: 438px;
     background-color: #2d2d39;
     position: absolute;
-    left: 151px;
+    left: 150px;
     border-radius: 100%;
     z-index: -1;
     bottom: -65px;
@@ -100,14 +109,15 @@ footer{
 }
 .img img{
     position: relative;
-    right: 1%;
+    right: 6%;
     bottom: 1rem;
-    width: 34%;
+    width: 32%;
+    top: 16px;
 }
 
 .left-text{
     position: absolute;
-    left: 63%;
+    left: 56%;
     top: 28%;
     color: white;
 }
@@ -117,7 +127,7 @@ footer{
 }
 #text{
     width: 41%;
-    font-size: 86%;
+    font-size: 106%;
     line-height: 145%;
 }
 
@@ -191,8 +201,8 @@ footer{
                                  /* use bottom background image */
 section{
     background: #282834;
-    height: 650px;
-    width: 150%;
+    padding-bottom: 189px;
+    width: 100%;
     position: relative;
     bottom: 57px;
     z-index: -111;
@@ -201,26 +211,31 @@ section{
 
  .new-texts h3 {            
     position: relative;
-    left: 6%;
-    top: 78px;
+    left: 9%;
+    top: 142px;
     font-size: 189%;
-    width: 13%;
+    width: 23%;
     color: white;
-    margin-bottom: 12px;
+
  }
  .para {
     position: relative;
-    left: 6%;
-    top: 90px;
+    left: 9%;
+    top: 156px;
     font-size: 12%;
     color: aliceblue;
     font-size: 84%;
-    width: 12%;
+    width: 19%;
     line-height: 20px;
  }
+                       /* project and experience share */
 
 
-
+ .four-coloumbs{
+    position: relative;
+    top: 50px;
+    left: 3%;
+ }                      
                               /* first  */
 
  .pro{
@@ -242,7 +257,7 @@ section{
                                /* .second */
  .second{
     position: relative;
-    left: 13%;
+    left: 15%;
     top: 78px;
  }
 
@@ -278,8 +293,8 @@ section{
          
       .forth{
         position: relative;
-        left: 13%;
-        top: 55px;
+        left: 15%;
+        top: 57px;
       }        
       .forth div{
         color: #dfae3c;
@@ -289,4 +304,115 @@ section{
       .forth p{
         color: white;
         font-size: 84%;
+      }
+                                                          
+                                     /* left side design and products add */
+
+            .img-f img{
+                width: 10%;
+            }
+
+            .first-link{
+               position: relative;
+               left: 12%;
+                bottom: 60px;
+            }
+
+                             /* Last three boxes design */
+
+
+      .boxes{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 275px;
+      }
+
+      .box-1{
+    background: #403f51;
+    width: 250px;
+    border: 1px solid black;
+    height: 230px;
+
+      }
+      .box-1 img{
+        width: 12%;
+        background-color: #363546;
+        margin: 6%;
+        border-radius: 70%;
+        padding: 3%;
+        box-shadow: 0px 0px 5px #363546;
+    }
+    .box-1 p{
+        position: relative;
+        left: 10%;
+        font-size: 25px;
+         color: #dcdae6;
+    }
+      
+    
+    .box-1 div{
+        font-size: 84%;
+        margin: 10px 25px;
+        width: 72%;
+        line-height: 120%;
+        color: #dcdae6;
+    }  
+    
+
+    .box-2{
+        background: #403f51;
+        width: 250px;
+        padding-right: 12px;
+    }
+    .box-2 img{
+        width: 12%;
+        background-color: #363546;
+        margin: 6%;
+        border-radius: 70%;
+        padding: 3%;
+        box-shadow: 0px 0px 5px #363546;
+    }
+    .box-2 p{
+        position: relative;
+        left: 10%;
+        font-size: 25px;
+        color: #dcdae6;
+    }
+    
+    .box-2 div{
+        font-size: 84%;
+        margin: 10px 25px;
+        width: 90%;
+        line-height: 120%;
+        color: #dcdae6;
+    }
+    
+      .box-3{
+        background: #403f51;
+        padding-right: 12px;
+        width: 250px;
+      }
+
+      .box-3 img{
+        width: 12%;
+        background-color: #363546;
+        margin: 6%;
+        border-radius: 70%;
+        padding: 3%;
+        box-shadow: 0px 0px 5px #363546;
+    }
+      .box-3 p{
+        position: relative;
+        left: 10%;
+        font-size: 25px;
+         color: #dcdae6;
+      }
+      
+      .box-3 div{
+        font-size: 84%;
+        margin: 10px 25px;
+        width: 72%;
+        color: #dcdae6;
+        line-height: 120%;
       }
