@@ -201,7 +201,7 @@ footer{
                                  /* use bottom background image */
 section{
     background: #282834;
-    padding-bottom: 189px;
+    padding-bottom: 1px;
     width: 100%;
     position: relative;
     bottom: 57px;
@@ -417,7 +417,7 @@ section{
    display: flex;
     justify-content: space-around;
     position: relative;
-     top: 275px;
+    top: 95px;
      }
                         
       .box-1{
