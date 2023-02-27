@@ -308,31 +308,125 @@ section{
                                                           
                                      /* left side design and products add */
 
-            .img-f img{
-                width: 10%;
-            }
 
-            .first-link{
-               position: relative;
-               left: 12%;
-                bottom: 60px;
-            }
+     .Projects {
+        display: flex;
+        position: relative;
+        bottom: 161px;
+        right: 8%;
+        
+    }
+    
+    .Projects img{
+        width: 11%;
+        float: right;
+        
+    }
+    
+    .Projects a{
+        text-decoration: none;
+        color: #dcdae6;
+        font-size: 22px;
+        margin-right: 200px;
+        margin-left: 25px;
+        position: relative;
+        top: 28px;
+    }
+    
+   .Projects i{
+       position: relative;
+       top: 28px;
+    }
+
+     
+       .second-project{
+        display: flex;
+        position: relative;
+        bottom: 133px;
+        right: 4%;
+    }
+ 
+    .second-project img{
+        width: 12%;
+        float: right;
+        height: 126%;
+        position: relative;
+        right: 3px;
+    }
+    
+
+    .second-project a{
+        
+        text-decoration: none;
+        color: #dcdae6;
+        font-size: 22px;
+        margin-right: 108px;
+        margin-left: 25px;
+        position: relative;
+        top: 28px;
+    }
+
+     .second-project i{
+        
+       position: relative;
+       top: 28px;
+     }
+
+
+
+     
+    .Third-project{
+        display: flex;
+        position: relative;
+        bottom: 95px;
+        left: 5%;
+    }
+    
+
+    .Third-project img{
+        width: 14%;
+        float: right;
+        height: 126%;
+        position: relative;
+        right: 3px;
+    }
+    
+
+    .Third-project a{
+        
+        text-decoration: none;
+        color: #dcdae6;
+        font-size: 22px;
+        margin-right: 91px;
+        margin-left: 25px;
+        position: relative;
+        top: 28px;
+    }
+
+     .Third-project i{
+        
+       position: relative;
+       top: 28px;
+     }
+
+
+
 
                              /* Last three boxes design */
-                             .boxes{
-                                display: flex;
-                                justify-content: space-around;
-                                position: relative;
-                                top: 275px;
-                              }
+      .boxes{
+   display: flex;
+    justify-content: space-around;
+    position: relative;
+     top: 275px;
+     }
                         
-                              .box-1{
-                            background: #403f51;
-                            width: 250px;
-                            border: 1px solid black;
-                            height: 230px;
-                        
-                              }
+      .box-1{
+   
+        background: #403f51;
+         width: 250px;
+         border: 1px solid black;
+         height: 230px;               
+           }
                               .box-1 img{
                                 width: 12%;
                                 background-color: #363546;
