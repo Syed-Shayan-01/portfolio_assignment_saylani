@@ -20,7 +20,7 @@ body{
     color: white;
     font-size: 200%;
     font-weight: bold;
-    margin-left: 78px;
+    margin-left: 135px;
 
 }
 .nav-bars ul li{
@@ -163,6 +163,10 @@ footer{
     background-color: #434657;
     margin-top: 3%;
 }      
+
+
+
+                                    /* add center social bar */
  .social-bars{
     display: flex;
     justify-content: space-around;
@@ -170,38 +174,101 @@ footer{
     background-color: #403f4f;
     margin-inline-end: 10%;
     margin-inline-start: 8%;
-    border-radius: 20px;
     position: relative;
     bottom: 25px;
     left: 0%;
-    padding: 3px;
+    padding: 16px;
 }
 
 
+                                            /* Design Meta in Social Bar */
 
-
-/* .social-bars a{
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 118%;
+.Meta a{
     color: white;
+    font-size: 18px;
+    background-color: #363642;
+    padding: 9px;
+    text-decoration: none;
+    padding-left: 18px;
+    padding-right: 19px;
 }
-.googl{
-    width: 90px;
-    position: relative;
-    top: 5px;
+
+.Meta i{
+    color: #2774bc;
+    margin-right: 4px;
 }
-.social-bars div img{
-    width: 90px;
-    position: relative;
-    top: 5px;
-} */
+                                        /* Google add in social lines */
+
+.google a{
+    font-size: 18px;
+    background-color: #363642;
+    padding: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 19px;
+    padding-right: 20px;
+    letter-spacing: -2px;
+}
+             /* google link Text Design */
+
+.A{
+     color:#4285f4;
+}
+.b{
+   color:#ea4335; 
+}
+.c{
+    color: #fbbc05;
+}
+.d{
+    color: #4285f4;
+}
+.e{
+    color:#34a853;
+}
+.f{
+    color: #ea4335;
+}
+               /* design nav line linkedin box */
+.Linkedin a{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #363642;
+    color: white;
+    padding: 9px;
+    padding-left: 18px;
+    padding-right: 19px;
+}
+
+.Linkedin i{
+    color: #2774bc ;
+}
+
+             /* Design social line Slack box */
+.slack{
+ display: flex;
+ align-items: center;
+ background-color: #363642 ;
+ padding: 4px;
+ padding-left: 18px;
+ padding-right: 19px;
+}
+
+.slack img{
+    width: 27px;
+}
+
+.slack-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
 
 
                                  /* use bottom background image */
 section{
     background: #282834;
-    padding-bottom: 1px;
+    padding-bottom: 16px;
     width: 100%;
     position: relative;
     bottom: 57px;
@@ -212,8 +279,8 @@ section{
  .new-texts h3 {            
     position: relative;
     left: 9%;
-    top: 142px;
-    font-size: 189%;
+    top: 175px;
+    font-size: 200%;
     width: 23%;
     color: white;
 
@@ -221,7 +288,7 @@ section{
  .para {
     position: relative;
     left: 9%;
-    top: 156px;
+    top: 194px;
     font-size: 12%;
     color: aliceblue;
     font-size: 84%;
@@ -233,8 +300,9 @@ section{
 
  .four-coloumbs{
     position: relative;
-    top: 50px;
+    top: 95px;
     left: 3%;
+
  }                      
                               /* first  */
 
@@ -305,7 +373,141 @@ section{
         color: white;
         font-size: 84%;
       }
-                                                          
+ 
+                                  /* left side design and products add */
+aside{
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.project{
+    position: relative;
+    bottom: 160px; 
+    left: 50%;
+}
+
+.first-pro img{
+    width: 8%;
+}
+
+.first-pro{  
+    display: flex;
+    align-items: center;
+   
+ 
+}
+.first-pro h1{
+    margin-left: 30px;
+    color: white;
+    font-weight: lighter;
+}
+.first-pro h1 span{
+    margin: 222px;
+}
+.first-pro p{
+    position: relative;
+    top: 27px;
+    right: 580px;
+    color: white;
+    font-size: 84%;
+}
+
+.border-one{
+    border-bottom: 1px solid #9f9fab;
+    width: 36%;
+    position: relative;
+    right: 56%;
+    top: 50px;
+    margin-top: 35px;
+}
+
+.Second-pro img{
+       width: 8%;
+       height: 69px;
+}
+.Second-pro{
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+.Second-pro h1{
+    margin-left: 30px;
+    color: white;
+    font-weight: lighter;
+}
+.Second-pro p{
+    position: relative;
+    top: 27px;
+    right: 359px;
+    color: white;
+    font-size: 84%;
+}
+.Second-pro h1 span{
+    margin-left: 145px;
+}
+
+.border-two{
+    border-bottom: 1px solid #9f9fab;
+    width: 36%;
+    position: relative;
+    right: 40.5%;
+    top: 50px;
+    margin-top: 23px;
+}
+
+
+.Third-pro{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Third-pro img{
+    width: 8%;
+}
+
+.Third-pro h1{
+    margin-left: 30px;
+    color: white;
+    font-weight: lighter;
+}
+.Third-pro h1 span{
+    margin-left: 130px;   
+}
+
+.Third-pro p{
+    position: relative;
+    top: 27px;
+    right: 359px;
+    color: white;
+    font-size: 84%;    
+}
+.border-three{
+    border-bottom: 1px solid #9f9fab;
+    width: 36%;
+    position: relative;
+    right: 40.5%;
+    top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
 
 
@@ -314,205 +516,109 @@ section{
    display: flex;
     justify-content: space-around;
     position: relative;
-    top: 95px;
+    top: 110px;
      }
                         
       .box-1{
    
         background: #403f51;
          width: 250px;
-         border: 1px solid black;
          height: 230px;               
            }
-                              .box-1 img{
-                                width: 12%;
-                                background-color: #363546;
-                                margin: 6%;
-                                border-radius: 70%;
-                                padding: 3%;
-                                box-shadow: 0px 0px 5px #363546;
-                            }
-                            .box-1 p{
-                                position: relative;
-                                left: 10%;
-                                font-size: 25px;
-                                 color: #dcdae6;
-                            }
-                              
-                            
-                            .box-1 div{
-                                font-size: 84%;
-                                margin: 10px 25px;
-                                width: 72%;
-                                line-height: 120%;
-                                color: #dcdae6;
-                            }  
-                            
-                        
-                            .box-2{
-                                background: #403f51;
-                                width: 250px;
-                                padding-right: 12px;
-                            }
-                            .box-2 img{
-                                width: 12%;
-                                background-color: #363546;
-                                margin: 6%;
-                                border-radius: 70%;
-                                padding: 3%;
-                                box-shadow: 0px 0px 5px #363546;
-                            }
-                            .box-2 p{
-                                position: relative;
-                                left: 10%;
-                                font-size: 25px;
-                                color: #dcdae6;
-                            }
-                            
-                            .box-2 div{
-                                font-size: 84%;
-                                margin: 10px 25px;
-                                width: 90%;
-                                line-height: 120%;
-                                color: #dcdae6;
-                            }
-                            
-                              .box-3{
-                                background: #403f51;
-                                padding-right: 12px;
-                                width: 250px;
-                              }
-                        
-                              .box-3 img{
-                                width: 12%;
-                                background-color: #363546;
-                                margin: 6%;
-                                border-radius: 70%;
-                                padding: 3%;
-                                box-shadow: 0px 0px 5px #363546;
-                            }
-                              .box-3 p{
-                                position: relative;
-                                left: 10%;
-                                font-size: 25px;
-                                 color: #dcdae6;
-                              }
-                              
-                              .box-3 div{
-                                font-size: 84%;
-                                margin: 10px 25px;
-                                width: 72%;
-                                color: #dcdae6;
-                                line-height: 120%;
-                              }
-
-
-
-
-
-
-
-
-                             /* left side design and products add */
-
-
-     .Projects {
-        display: flex;
-        position: relative;
-        bottom: 161px;
-        right: 8%;
-        
-    }
-    
-    .Projects img{
-        width: 11%;
-        float: right;
-        
-    }
-    
-    .Projects a{
-        text-decoration: none;
-        color: #dcdae6;
-        font-size: 22px;
-        margin-right: 200px;
-        margin-left: 25px;
-        position: relative;
-        top: 28px;
-    }
-    
-   .Projects i{
-       position: relative;
-       top: 28px;
-    }
-
-     
-       .second-project{
-        display: flex;
-        position: relative;
-        bottom: 133px;
-        right: 4%;
-    }
- 
-    .second-project img{
+       .box-1 img{
         width: 12%;
-        float: right;
-        height: 126%;
-        position: relative;
-        right: 3px;
-    }
-    
+         background-color: #363546;
+         margin: 6%;
+        border-radius: 70%;
+        padding: 3%;
+        box-shadow: 0px 0px 5px #363546;
+  }
+  
+  .box-1 p{
+     position: relative;
+     left: 10%;
+     font-size: 25px;
+     color: #dcdae6;
+        }
+                              
+                            
+      .box-1 div{
+      font-size: 84%;
+        margin: 10px 25px;
+     width: 72%;
+      line-height: 120%;
+     color: #dcdae6;
+      }  
 
-    .second-project a{
-        
-        text-decoration: none;
-        color: #dcdae6;
-        font-size: 22px;
-        margin-right: 108px;
-        margin-left: 25px;
-        position: relative;
-        top: 28px;
-    }
-
-     .second-project i{
-        
-       position: relative;
-       top: 28px;
+                       /* Designing box 2 in last three box */
+                            
+    .box-2{
+     background: #403f51;
+   width: 250px;
+   padding-right: 12px;
+ }
+   .box-2 img{
+    width: 12%;
+       background-color: #363546;
+      margin: 6%;
+       border-radius: 70%;
+    padding: 3%;
+    box-shadow: 0px 0px 5px #363546;
      }
-
-
-
-     
-    .Third-project{
-        display: flex;
-        position: relative;
-        bottom: 95px;
-        left: 5%;
-    }
-    
-
-    .Third-project img{
-        width: 14%;
-        float: right;
-        height: 126%;
-        position: relative;
-        right: 3px;
-    }
-    
-
-    .Third-project a{
-        
-        text-decoration: none;
+                            
+     .box-2 p{                     
+        position: relative;                     
+        left: 10%;                     
+        font-size: 25px;               
         color: #dcdae6;
-        font-size: 22px;
-        margin-right: 91px;
-        margin-left: 25px;
-        position: relative;
-        top: 28px;
+                         
     }
+                            
+      .box-2 div{     
+     font-size: 84%;      
+     margin: 10px 25px;              
+     width: 90%;              
+     line-height: 120%;              
+     color: #dcdae6;
+                           
+    }
+                           /* Design box 3 in last three box  */
+                 
+    .box-3{
+        background: #403f51;
+        padding-right: 12px;
+        width: 250px;
+    
+    }
+                        
+           
+    .box-3 img{
+    
+        width: 12%;
+        background-color: #363546;
+        margin: 6%;
+        border-radius: 70%;
+        padding: 3%;
+        box-shadow: 0px 0px 5px #363546;
+                   
+    }
+    
+    .box-3 p{
+    
+        position: relative;
+        left: 10%;
+        font-size: 25px;
+        color: #dcdae6;
+    
+    }
+                              
+     .box-3 div{
+      font-size: 84%;
+      margin: 10px 25px;
+      width: 72%;
+     color: #dcdae6;
+    line-height: 120%;
 
-     .Third-project i{
-        
-       position: relative;
-       top: 28px;
-     }
+}
 
+ 
