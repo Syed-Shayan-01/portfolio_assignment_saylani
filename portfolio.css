@@ -57,13 +57,13 @@ body{
 footer{
     position: absolute;
     left: 16%;
-    top: 14rem;
+    top: 8rem;
 }
 
 .text-im{
     position: relative;
     right: -1%;
-    bottom: 17px;
+    bottom: -4rem;
 }
 
 
@@ -83,7 +83,7 @@ footer{
 }
 .text{
     color: white;
-    width: 22%;
+    width: 23%;
     font-size: 84%;
     padding-top: 1%;
     line-height: 126%;
@@ -92,14 +92,14 @@ footer{
 
                                /* Pic background color */
 .bor{
-    width: 52%;
-    height: 162%;
+    width: 31%;
+    height: 59%;
     background-color: #2d2d39;
     position: absolute;
-    left: 13rem;
+    left: 26rem;
     border-radius: 100%;
     z-index: -111;
-    bottom: -63px;
+    bottom: 14rem;
 }
 .img{
     display: flex;
@@ -110,13 +110,12 @@ footer{
     right: 4rem;
     bottom: 1rem;
     width: 32%;
-    top: 16px;
 }
 
 .left-text{
     position: absolute;
     left: 51rem;
-    top: 14rem;
+    top: 15rem;
     color: white;
 }
 
@@ -173,7 +172,7 @@ footer{
     margin-inline-end: 10%;
     margin-inline-start: 8%;
     position: relative;
-    bottom: 25px;
+    bottom: 65px;
     left: 0%;
     padding: 16px;
 }
@@ -268,7 +267,7 @@ section{
     padding-bottom: 16px;
     width: 100%;
     position: relative;
-    bottom: 57px;
+    bottom: 95px;
     z-index: -111;
  }
 
