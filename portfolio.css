@@ -56,8 +56,8 @@ body{
 
 footer{
     position: absolute;
-    left: 16%;
-    top: 8rem;
+    left: 180px;
+    top: 96px;
 }
 
 .text-im{
@@ -92,14 +92,14 @@ footer{
 
                                /* Pic background color */
 .bor{
-    width: 30%;
-    height: 54%;
+    width: 55%;
+    height: 180%;
     background-color: #2d2d39;
     position: absolute;
-    left: 27rem;
+    left: 14rem;
     border-radius: 100%;
     z-index: -111;
-    top: 109px;
+    top: -4px;
 }
 .img{
     display: flex;
@@ -409,7 +409,7 @@ section{
         border-bottom: 1px solid #9f9fab;
         width: 36%;
         position: relative;
-        right: 779px;
+        right: 56%;
         top: 3rem;
         margin-top: 35px;
     }
