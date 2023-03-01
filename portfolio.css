@@ -56,14 +56,14 @@ body{
 
 footer{
     position: absolute;
-    top: 28%;
-    left: 18%;
+    left: 16%;
+    top: 29%;
 }
 
 .text-im{
     position: relative;
-    right: 10%;
-    bottom: 35px;
+    right: -1%;
+    bottom: 1rem;
 }
 
 
@@ -76,7 +76,6 @@ footer{
     color: white;
     font-size: 349%;
     margin-bottom: 3%;
-    word-spacing: 0rem;
 }
 .text-im h4 span{
     border-bottom: 3px solid #dfae3c;
@@ -94,14 +93,13 @@ footer{
                                /* Pic background color */
 .bor{
     width: 52%;
-    /* border: 1px solid black; */
-    height: 438px;
+    height: 162%;
     background-color: #2d2d39;
     position: absolute;
-    left: 150px;
+    left: 13rem;
     border-radius: 100%;
-    z-index: -1;
-    bottom: -65px;
+    z-index: -111;
+    bottom: -4rem;
 }
 .img{
     display: flex;
@@ -109,7 +107,7 @@ footer{
 }
 .img img{
     position: relative;
-    right: 6%;
+    right: 4rem;
     bottom: 1rem;
     width: 32%;
     top: 16px;
@@ -117,8 +115,8 @@ footer{
 
 .left-text{
     position: absolute;
-    left: 56%;
-    top: 28%;
+    left: 51rem;
+    top: 14rem;
     color: white;
 }
 
@@ -375,10 +373,6 @@ section{
 
 
  
-      aside{
-        flex-direction: column;
-        justify-content: space-between;  
-    }
     .project{
         position: relative;
         bottom: 160px; 
@@ -396,7 +390,7 @@ section{
      
     }
     .first-pro h1{
-        margin-left: 30px;
+        margin-left: 2%;
         color: white;
         font-weight: lighter;
     }
@@ -415,14 +409,14 @@ section{
         border-bottom: 1px solid #9f9fab;
         width: 36%;
         position: relative;
-        right: 56%;
-        top: 50px;
+        right: 50rem;
+        top: 3rem;
         margin-top: 35px;
     }
     
     .Second-pro img{
-           width: 8%;
-           height: 69px;
+        width: 8%;
+        height: 4rem;
     }
     .Second-pro{
         display: flex;
@@ -449,8 +443,8 @@ section{
         border-bottom: 1px solid #9f9fab;
         width: 36%;
         position: relative;
-        right: 40.5%;
-        top: 50px;
+        right: 36rem;
+        top: 3rem;
         margin-top: 23px;
     }
     
@@ -485,8 +479,8 @@ section{
         border-bottom: 1px solid #9f9fab;
         width: 36%;
         position: relative;
-        right: 40.5%;
-        top: 50px;
+        right: 36rem;
+        top: 3rem;
     }
 
                              /* Last three boxes design */
