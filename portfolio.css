@@ -63,7 +63,7 @@ footer{
 .text-im{
     position: relative;
     right: -1%;
-    bottom: 1rem;
+    bottom: 17px;
 }
 
 
@@ -99,7 +99,7 @@ footer{
     left: 13rem;
     border-radius: 100%;
     z-index: -111;
-    bottom: -4rem;
+    bottom: -63px;
 }
 .img{
     display: flex;
