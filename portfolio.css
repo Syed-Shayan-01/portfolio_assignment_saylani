@@ -92,14 +92,14 @@ footer{
 
                                /* Pic background color */
 .bor{
-    width: 31%;
-    height: 59%;
+    width: 30%;
+    height: 54%;
     background-color: #2d2d39;
     position: absolute;
-    left: 26rem;
+    left: 27rem;
     border-radius: 100%;
     z-index: -111;
-    bottom: 14rem;
+    top: 109px;
 }
 .img{
     display: flex;
@@ -114,8 +114,8 @@ footer{
 
 .left-text{
     position: absolute;
-    left: 51rem;
-    top: 15rem;
+    left: 59%;
+    top: 31%;
     color: white;
 }
 
@@ -175,6 +175,7 @@ footer{
     bottom: 65px;
     left: 0%;
     padding: 16px;
+    margin-top: 20px;
 }
 
 
@@ -408,7 +409,7 @@ section{
         border-bottom: 1px solid #9f9fab;
         width: 36%;
         position: relative;
-        right: 50rem;
+        right: 56%;
         top: 3rem;
         margin-top: 35px;
     }
