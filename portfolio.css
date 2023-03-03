@@ -29,12 +29,8 @@ body {
 
 .nav-bars ul li {
     display: inline;
-    margin-left: 50px
-}
-
-.first li a {
-    color: white;
-}
+    margin-left: 50px;
+} 
 
 .nav-bars ul li a {
     text-decoration: none;
