@@ -1,87 +1,103 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-body{
+
+body {
     font-family: sans-serif;
     background-color: #363642;
     overflow-x: hidden;
 }
 
-                    /* ALL NAV IEMS DESIGN */
+/* ALL NAV IEMS DESIGN */
 
-.nav-bars nav{
+.nav-bars nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 102%;
     padding: 21px;
 }
- #Logo{
+
+#Logo {
     color: white;
-    font-size: 200%;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin-left: 135px;
+    margin-left: 128px;
 
 }
-.nav-bars ul li{
+
+.nav-bars ul li {
     display: inline;
-    margin: 32px;
+    margin-left: 50px
 }
-.nav-bars ul li a{
+
+.first li a {
+    color: white;
+}
+
+.nav-bars ul li a {
     text-decoration: none;
     position: relative;
     top: 30%;
-    right: 22%;
-    color: white;
+    right: 40%;
+    color: rgb(211, 204, 204);
+    font-size: 12px;
 }
-.nav-bars ul li a:hover{
+
+.nav-bars ul li a:hover {
     color: #dfae3c;
 }
 
 
-.nav-items{
+.nav-items {
     position: relative;
     right: 5%;
     letter-spacing: 33px;
-    font-size: 127%;
+    font-size: 16px;
 }
-.nav-items a i{
+
+.nav-items a i {
     position: relative;
     top: 30%;
     color: white;
 }
-.nav-items a i:hover{
+
+.nav-items a i:hover {
     color: #dfae3c;
 }
 
-footer{
+footer {
     position: absolute;
     left: 180px;
     top: 96px;
 }
 
-.text-im{
+.text-im {
     position: relative;
-    right: -1%;
-    bottom: -4rem;
+    right: -10%;
+    bottom: -6rem;
 }
 
 
-.text-im h1{
+.text-im h1 {
     font-size: 378%;
     color: #9F9FAA;
     font-weight: lighter;
 }
-.text-im h4{
+
+.text-im h4 {
     color: white;
     font-size: 349%;
     margin-bottom: 3%;
 }
-.text-im h4 span{
+
+.text-im h4 span {
     border-bottom: 3px solid #dfae3c;
     padding-bottom: 2%;
 }
-.text{
+
+.text {
     color: white;
     width: 23%;
     font-size: 84%;
@@ -90,54 +106,60 @@ footer{
 
 }
 
-                               /* Pic background color */
-.bor{
-    width: 55%;
-    height: 180%;
+/* Pic background color */
+.bor {
+    width: 54%;
+    height: 173%;
     background-color: #2d2d39;
     position: absolute;
-    left: 14rem;
+    left: 15rem;
     border-radius: 100%;
     z-index: -111;
-    top: -4px;
+    top: 1px;
 }
-.img{
+
+.img {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
-.img img{
+
+.img img {
     position: relative;
     right: 4rem;
     bottom: 1rem;
     width: 32%;
 }
 
-.left-text{
+.left-text {
     position: absolute;
     left: 59%;
     top: 31%;
     color: white;
 }
 
-.left-text p{
-        margin-bottom: 2%;
+.left-text p {
+    margin-bottom: 2%;
 }
-#text{
+
+#text {
     width: 41%;
     font-size: 106%;
     line-height: 145%;
 }
 
-.link a,i{
+.link a,
+i {
     color: #dfae3c;
     text-decoration: none;
     padding-top: 2%;
 }
-.link :hover{
+
+.link :hover {
     color: #9f9fab;
 }
-                       /* bottom social links */
- .social-back{
+
+/* bottom social links */
+.social-back {
     border: 1px solid black;
     width: 8%;
     height: 4vh;
@@ -147,10 +169,10 @@ footer{
     background-color: #434657;
     z-index: -1;
     border-radius: 74%;
- }
+}
 
 
-.social i{
+.social i {
     width: 13px;
     height: -3vh;
     padding: 2%;
@@ -159,12 +181,12 @@ footer{
     margin-inline: 1%;
     background-color: #434657;
     margin-top: 3%;
-}      
+}
 
 
 
-                                    /* add center social bar */
- .social-bars{
+/* add center social bar */
+.social-bars {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -179,9 +201,9 @@ footer{
 }
 
 
-                                            /* Design Meta in Social Bar */
+/* Design Meta in Social Bar */
 
-.Meta a{
+.Meta a {
     color: white;
     font-size: 18px;
     background-color: #363642;
@@ -191,13 +213,14 @@ footer{
     padding-right: 19px;
 }
 
-.Meta i{
+.Meta i {
     color: #2774bc;
     margin-right: 4px;
 }
-                                        /* Google add in social lines */
 
-.google a{
+/* Google add in social lines */
+
+.google a {
     font-size: 18px;
     background-color: #363642;
     padding: 9px;
@@ -207,28 +230,35 @@ footer{
     padding-right: 20px;
     letter-spacing: -2px;
 }
-             /* google link Text Design */
 
-.A{
-     color:#4285f4;
-}
-.b{
-   color:#ea4335; 
-}
-.c{
-    color: #fbbc05;
-}
-.d{
+/* google link Text Design */
+
+.A {
     color: #4285f4;
 }
-.e{
-    color:#34a853;
-}
-.f{
+
+.b {
     color: #ea4335;
 }
-               /* design nav line linkedin box */
-.Linkedin a{
+
+.c {
+    color: #fbbc05;
+}
+
+.d {
+    color: #4285f4;
+}
+
+.e {
+    color: #34a853;
+}
+
+.f {
+    color: #ea4335;
+}
+
+/* design nav line linkedin box */
+.Linkedin a {
     text-decoration: none;
     font-size: 18px;
     background-color: #363642;
@@ -238,42 +268,42 @@ footer{
     padding-right: 19px;
 }
 
-.Linkedin i{
-    color: #2774bc ;
+.Linkedin i {
+    color: #2774bc;
 }
 
-             /* Design social line Slack box */
-.slack{
- display: flex;
- align-items: center;
- background-color: #363642 ;
- padding: 4px;
- padding-left: 18px;
- padding-right: 19px;
+/* Design social line Slack box */
+.slack {
+    display: flex;
+    align-items: center;
+    background-color: #363642;
+    padding: 4px;
+    padding-left: 18px;
+    padding-right: 19px;
 }
 
-.slack img{
+.slack img {
     width: 27px;
 }
 
-.slack-text a{
+.slack-text a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-                                 /* use bottom background image */
-section{
+/* use bottom background image */
+section {
     background: #282834;
     padding-bottom: 16px;
     width: 100%;
     position: relative;
     bottom: 95px;
     z-index: -111;
- }
+}
 
 
- .new-texts h3 {            
+.new-texts h3 {
     position: relative;
     left: 9%;
     top: 175px;
@@ -281,8 +311,9 @@ section{
     width: 23%;
     color: white;
 
- }
- .para {
+}
+
+.para {
     position: relative;
     left: 9%;
     top: 194px;
@@ -291,306 +322,323 @@ section{
     font-size: 84%;
     width: 19%;
     line-height: 20px;
- }
-                       /* project and experience share */
+}
+
+/* project and experience share */
 
 
- .four-coloumbs{
+.four-coloumbs {
     position: relative;
     top: 95px;
     left: 3%;
- }                      
-                              /* first  */
- .pro{
+}
+
+/* first  */
+.pro {
     position: relative;
     left: 6%;
     top: 121px;
- }
+}
 
- .pro div{
+.pro div {
     color: #dfae3c;
     font-weight: bold;
     font-size: 150%;
- }
- .pro p{
-    color: white;
-   font-size: 84%;
- }
+}
 
-                               /* .second */
- .second{
+.pro p {
+    color: white;
+    font-size: 84%;
+}
+
+/* .second */
+.second {
     position: relative;
     left: 15%;
     top: 78px;
- }
+}
 
- .second div{
+.second div {
     color: #dfae3c;
     font-weight: bold;
     font-size: 150%;
- }
+}
 
- .second p{
+.second p {
     color: white;
-   font-size: 84%;
- }
-                                    /* third */
+    font-size: 84%;
+}
 
-      .Third{
-        position: relative;
-        left: 6%;
-        top: 100px;
-      }
+/* third */
 
-      .Third div{
-        color: #dfae3c;
-        font-weight: bold;
-        font-size: 150%;
-      }
-
-      .Third p{
-        color: white;
-        font-size: 84%;
-      }
-                                /* forth */
-         
-      .forth{
-        position: relative;
-        left: 15%;
-        top: 57px;
-      }        
-      .forth div{
-        color: #dfae3c;
-        font-weight: bold;
-        font-size: 150%;
-      }                  
-      .forth p{
-        color: white;
-        font-size: 84%;
-      }
-
-                               /* left side projects design */
-
-
- 
-    .project{
-        position: relative;
-        bottom: 160px; 
-        left: 50%;
-    }
-    
-    .first-pro img{
-        width: 8%;
-    }
-    
-    .first-pro{  
-        display: flex;
-        align-items: center;
-       
-     
-    }
-    .first-pro h1{
-        margin-left: 2%;
-        color: white;
-        font-weight: lighter;
-    }
-    .first-pro h1 span{
-        margin: 222px;
-    }
-    .first-pro p{
-        position: relative;
-        top: 27px;
-        right: 580px;
-        color: white;
-        font-size: 84%;
-    }
-    
-    .border-one{
-        border-bottom: 1px solid #9f9fab;
-        width: 36%;
-        position: relative;
-        right: 56%;
-        top: 3rem;
-        margin-top: 35px;
-    }
-    
-    .Second-pro img{
-        width: 8%;
-        height: 4rem;
-    }
-    .Second-pro{
-        display: flex;
-        align-items: center;
-        margin-top: 52px;
-    }
-    .Second-pro h1{
-        margin-left: 30px;
-        color: white;
-        font-weight: lighter;
-    }
-    .Second-pro p{
-        position: relative;
-        top: 27px;
-        right: 359px;
-        color: white;
-        font-size: 84%;
-    }
-    .Second-pro h1 span{
-        margin-left: 145px;
-    }
-    
-    .border-two{
-        border-bottom: 1px solid #9f9fab;
-        width: 36%;
-        position: relative;
-        right: 36rem;
-        top: 3rem;
-        margin-top: 23px;
-    }
-    
-    
-    .Third-pro{
-        display: flex;
-        align-items: center;
-        margin-top: 50px;
-    }
-    
-    .Third-pro img{
-        width: 8%;
-    }
-    
-    .Third-pro h1{
-        margin-left: 30px;
-        color: white;
-        font-weight: lighter;
-    }
-    .Third-pro h1 span{
-        margin-left: 130px;   
-    }
-    
-    .Third-pro p{
-        position: relative;
-        top: 27px;
-        right: 359px;
-        color: white;
-        font-size: 84%;    
-    }
-    .border-three{
-        border-bottom: 1px solid #9f9fab;
-        width: 36%;
-        position: relative;
-        right: 36rem;
-        top: 3rem;
-    }
-
-                             /* Last three boxes design */
-      .boxes{
-   display: flex;
-    justify-content: space-around;
+.Third {
     position: relative;
-    top: 110px;
-     }
-                        
-      .box-1{
-   
-        background: #403f51;
-         width: 250px;
-         height: 230px;               
-           }
-       .box-1 img{
-        width: 12%;
-         background-color: #363546;
-         margin: 6%;
-        border-radius: 70%;
-        padding: 3%;
-        box-shadow: 0px 0px 5px #363546;
-  }
-  
-  .box-1 p{
-     position: relative;
-     left: 10%;
-     font-size: 25px;
-     color: #dcdae6;
-        }
-                              
-                            
-      .box-1 div{
-      font-size: 84%;
-        margin: 10px 25px;
-     width: 72%;
-      line-height: 120%;
-     color: #dcdae6;
-      }  
+    left: 6%;
+    top: 100px;
+}
 
-                       /* Designing box 2 in last three box */
-                            
-    .box-2{
-     background: #403f51;
-   width: 250px;
-   padding-right: 12px;
- }
-   .box-2 img{
-    width: 12%;
-       background-color: #363546;
-      margin: 6%;
-       border-radius: 70%;
-    padding: 3%;
-    box-shadow: 0px 0px 5px #363546;
-     }
-                            
-     .box-2 p{                     
-        position: relative;                     
-        left: 10%;                     
-        font-size: 25px;               
-        color: #dcdae6;
-                         
-    }
-                            
-      .box-2 div{     
-     font-size: 84%;      
-     margin: 10px 25px;              
-     width: 90%;              
-     line-height: 120%;              
-     color: #dcdae6;
-                           
-    }
-                           /* Design box 3 in last three box  */
-                 
-    .box-3{
-        background: #403f51;
-        padding-right: 12px;
-        width: 250px;
-    
-    }
-                        
-           
-    .box-3 img{
-    
-        width: 12%;
-        background-color: #363546;
-        margin: 6%;
-        border-radius: 70%;
-        padding: 3%;
-        box-shadow: 0px 0px 5px #363546;
-                   
-    }
-    
-    .box-3 p{
-    
-        position: relative;
-        left: 10%;
-        font-size: 25px;
-        color: #dcdae6;
-    
-    }
-                              
-     .box-3 div{
-      font-size: 84%;
-      margin: 10px 25px;
-      width: 72%;
-     color: #dcdae6;
-    line-height: 120%;
+.Third div {
+    color: #dfae3c;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.Third p {
+    color: white;
+    font-size: 84%;
+}
+
+/* forth */
+
+.forth {
+    position: relative;
+    left: 15%;
+    top: 57px;
+}
+
+.forth div {
+    color: #dfae3c;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.forth p {
+    color: white;
+    font-size: 84%;
+}
+
+/* left side projects design */
+
+
+
+.project {
+    position: relative;
+    bottom: 160px;
+    left: 50%;
+}
+
+.first-pro img {
+    width: 8%;
+}
+
+.first-pro {
+    display: flex;
+    align-items: center;
+
 
 }
 
- 
+.first-pro h1 {
+    margin-left: 2%;
+    color: white;
+    font-weight: lighter;
+}
+
+.first-pro h1 span {
+    margin: 222px;
+}
+
+.first-pro p {
+    position: relative;
+    top: 27px;
+    right: 580px;
+    color: white;
+    font-size: 84%;
+}
+
+.border-one {
+    border-bottom: 1px solid #9f9fab;
+    width: 36%;
+    position: relative;
+    right: 50rem;
+    top: 3rem;
+    margin-top: 35px;
+}
+
+.Second-pro img {
+    width: 8%;
+    height: 4rem;
+}
+
+.Second-pro {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.Second-pro h1 {
+    margin-left: 30px;
+    color: white;
+    font-weight: lighter;
+}
+
+.Second-pro p {
+    position: relative;
+    top: 27px;
+    right: 359px;
+    color: white;
+    font-size: 84%;
+}
+
+.Second-pro h1 span {
+    margin-left: 145px;
+}
+
+.border-two {
+    border-bottom: 1px solid #9f9fab;
+    width: 36%;
+    position: relative;
+    right: 36rem;
+    top: 3rem;
+    margin-top: 23px;
+}
+
+
+.Third-pro {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Third-pro img {
+    width: 8%;
+}
+
+.Third-pro h1 {
+    margin-left: 30px;
+    color: white;
+    font-weight: lighter;
+}
+
+.Third-pro h1 span {
+    margin-left: 130px;
+}
+
+.Third-pro p {
+    position: relative;
+    top: 27px;
+    right: 359px;
+    color: white;
+    font-size: 84%;
+}
+
+.border-three {
+    border-bottom: 1px solid #9f9fab;
+    width: 36%;
+    position: relative;
+    right: 36rem;
+    top: 3rem;
+}
+
+/* Last three boxes design */
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 110px;
+}
+
+.box-1 {
+
+    background: #403f51;
+    width: 250px;
+    height: 230px;
+}
+
+.box-1 img {
+    width: 12%;
+    background-color: #363546;
+    margin: 6%;
+    border-radius: 70%;
+    padding: 3%;
+    box-shadow: 0px 0px 5px #363546;
+}
+
+.box-1 p {
+    position: relative;
+    left: 10%;
+    font-size: 25px;
+    color: #dcdae6;
+}
+
+
+.box-1 div {
+    font-size: 84%;
+    margin: 10px 25px;
+    width: 72%;
+    line-height: 120%;
+    color: #dcdae6;
+}
+
+/* Designing box 2 in last three box */
+
+.box-2 {
+    background: #403f51;
+    width: 250px;
+    padding-right: 12px;
+}
+
+.box-2 img {
+    width: 12%;
+    background-color: #363546;
+    margin: 6%;
+    border-radius: 70%;
+    padding: 3%;
+    box-shadow: 0px 0px 5px #363546;
+}
+
+.box-2 p {
+    position: relative;
+    left: 10%;
+    font-size: 25px;
+    color: #dcdae6;
+
+}
+
+.box-2 div {
+    font-size: 84%;
+    margin: 10px 25px;
+    width: 90%;
+    line-height: 120%;
+    color: #dcdae6;
+
+}
+
+/* Design box 3 in last three box  */
+
+.box-3 {
+    background: #403f51;
+    padding-right: 12px;
+    width: 250px;
+
+}
+
+
+.box-3 img {
+
+    width: 12%;
+    background-color: #363546;
+    margin: 6%;
+    border-radius: 70%;
+    padding: 3%;
+    box-shadow: 0px 0px 5px #363546;
+
+}
+
+.box-3 p {
+
+    position: relative;
+    left: 10%;
+    font-size: 25px;
+    color: #dcdae6;
+
+}
+
+.box-3 div {
+    font-size: 84%;
+    margin: 10px 25px;
+    width: 72%;
+    color: #dcdae6;
+    line-height: 120%;
+
+}
